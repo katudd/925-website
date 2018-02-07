@@ -1,0 +1,80 @@
+.Admin {
+  width: 100%;
+  padding: 8vh 20% 7vh 20%;
+  background-color: #6f5f6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Admin h3 {
+  padding-bottom: 1em;
+}
+.fa-arrow-circle-right {
+  font-size: 2em;
+  position: relative;
+  top: 8px;
+}
+
+.contact-admin-box {
+  padding: 2em;
+  background-color: #6f5f6e;
+  margin: 0.7em 0 1.5em 0;
+}
+
+.contact-admin-input {
+  padding: 1em;
+  background-color: #fff;
+  margin: 0.7em 0 1em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+.form-container-green {
+  padding: 1em;
+  margin: 0.7em 0 4em 0;
+  box-shadow: 5px 5px;
+  background-color: #2d6c33;
+  border: 3px solid #2d6c33;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 2.5em;
+}
+
+.instruction a {
+  color: #fff;
+}
+
+/* .instruction a:hover {
+  color: #879099;
+} */
+
+.instruction:hover {
+  color: #879099;
+  background-color: #fff;
+}
+
+@media (max-width: 620px){
+  .Admin {
+      padding: 15vh 5% 7vh 5%;
+  }
+
+  .login-container {
+    padding: 0.5em;
+  }
+
+  /* .contact-admin-input {
+    padding: 1em;
+    background-color: green;
+  } */
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .Admin {
+      padding: 9vh 15% 7vh 15%;
+  }
+}
+
+@media (min-width: 801px){
+}

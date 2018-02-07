@@ -1,0 +1,60 @@
+
+/* In the fetchshortstory-component */
+.shortstory-container {
+  width: 100vw;
+  background-color: #fff;
+  padding: 10% 20% 5% 20%;
+  display: flex;
+  justify-content: center;
+}
+
+/* In the shortstory-component */
+.Shortstory {
+  max-width: 1200px;
+}
+
+#shortstory-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 6vh;
+}
+
+.heading {
+  margin: 2vh 0 20px 0;
+}
+
+.shorttext {
+  margin-bottom: 20px;
+}
+
+.story-box-seperator {
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  background-color: #000;
+}
+
+.Shortstory a {
+  color: #000;
+}
+
+.Shortstory a:hover {
+  color: #879099;
+}
+
+@media (max-width: 620px){
+  .shortstory-container {
+    padding: 10% 10% 5% 10%;
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .shortstory-container {
+    padding: 15% 10% 5% 15%;
+  }
+
+  }
+
+@media (min-width: 801px){
+  }

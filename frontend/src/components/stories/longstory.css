@@ -1,0 +1,51 @@
+/* In storypage-component */
+.Stories-list {
+  width: 100%;
+  padding: 8vh 20% 7vh 20%;
+  margin-top: 40px;
+}
+
+.longstory-container {
+  width: 100%;
+  opacity: 0;
+  animation: fade-in-bottom ease 1s forwards;
+}
+
+#longstory-image {
+  width: 100%;
+  height: auto;
+  border-top: solid 3px black;
+  margin-top: 5vh;
+}
+
+.longstory-container, .story-box-seperator {
+  margin-bottom: 2vh;
+}
+.caption  {
+  margin-top: 10px;
+  margin-bottom: 5vh;
+}
+
+.longtext  {
+  margin-top: 20px;
+}
+
+@media (max-width: 620px){
+  .Stories-list {
+      padding: 10% 10% 7vh 10%;
+  }
+
+  #longstory-image {
+    margin-top: 4vh;
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .Stories-list {
+      padding: 10% 15% 7vh 15%;
+  }
+  }
+
+@media (min-width: 801px){
+  }

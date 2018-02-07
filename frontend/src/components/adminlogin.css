@@ -1,0 +1,45 @@
+.Login {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 8vh 20% 7vh 20%;
+  background-color: #6f5f6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.admin-login {
+  padding: 2em;
+  background-color: #879099;
+  margin-top: 30px;
+  /* border-top: solid 3px #000; */
+}
+
+.login-container {
+  padding: 2em;
+  background-color: #879099;
+  margin-top: 30px;
+  /* border-top: solid 3px #000; */
+}
+
+
+@media (max-width: 620px){
+  .Login {
+      padding: 9vh 5% 7vh 5%;
+  }
+
+  .admin-login-container {
+    padding: 1.5em;
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .Login {
+      padding: 9vh 15% 7vh 15%;
+  }
+}
+
+@media (min-width: 801px){
+}

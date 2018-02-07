@@ -1,0 +1,75 @@
+::-webkit-scrollbar {
+  width:1px;height:1px;
+}
+::-webkit-scrollbar-button {
+  width:1px;height:1px;
+}
+
+.swipe-container {
+  width: 100vw;
+  /* background-color: red; */
+  position: relative;
+  background-color: #fff;
+  height: 1000px;
+}
+
+.swipe-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+
+}
+
+.swipe-image-container {
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+
+.swipe-container img {
+  max-height: 1000px;
+  max-width: 100%;
+}
+
+.three {
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+.two, .four, .six{
+  padding-bottom: 5%;
+}
+
+.swipe-arrow {
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(-45deg);
+  transition: all .2s ease-in-out;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+  z-index: 10;
+}
+
+.swipe-arrow:hover {
+  transform: scale(1.5) rotate(45deg);
+}
+
+
+@media (max-width: 620px){
+  .swipe-container {
+    height: 312px;
+  }
+
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .swipe-container {
+    height: 640px;
+  }
+  }
+
+@media (min-width: 801px){
+
+  }
